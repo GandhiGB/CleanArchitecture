@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ggb.assignment">
+    package="com.ggb.CleanArchitecture">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -16,7 +16,7 @@
         android:theme="@style/Theme.Assignment"
         tools:targetApi="31">
         <activity
-            android:name="com.ggb.assignment.MainActivity"
+            android:name="com.ggb.CleanArchitecture.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Assignment">
